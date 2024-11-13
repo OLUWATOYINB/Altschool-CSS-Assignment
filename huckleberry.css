@@ -1,0 +1,168 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* ----------------nav container----------- */
+nav{
+  background-color: white; 
+}
+
+nav .menu-wrap{
+  top:20px;
+}
+
+.menu-wrap{
+  background-color: turquoise;
+  width: 100px;
+  line-height: 2;
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  left: 2%;
+  box-shadow: 0px 4px 2px  rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.menu-wrap:hover{
+  transition: 0.8s;
+  background-color: lightsalmon;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.menu-wrap:hover .sub-menu{
+  display: inline-block;
+}
+
+.sub-menu{
+  position: absolute;
+  display: none;
+  padding: 8px;
+}
+
+
+ul li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: deeppink;
+  transition: 0.8s;
+}
+
+/* -------------main container---- */
+.con1{
+  width: 100vh;
+  height: 50vh;
+  top: 96px ;
+  left: 264px;
+  line-height: 38.4px;
+  padding-block-start: 40px;
+  padding-inline-start: 30px;
+}
+
+h3{
+  color: #000;
+  font-size: 32px;
+  margin-block-end: 50px;
+  padding-inline-start: 200px;
+}
+
+.avant{
+  margin-block-end: 19px;
+  padding-inline-start: 200px;
+
+}
+
+.better{
+  padding-inline-start: 200px;
+}
+
+.con2{
+  height: 50vh;
+  padding-inline-start: 150px;
+  border-top-style: inset;
+  border-width: 5px;
+  border-color:#9999;
+  background: #6666;
+}
+
+.sub-con{
+  margin-inline-start:50px ;
+  margin-block: 50px;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: white;
+  position: absolute;
+  border-block-end: 1rem solid #6666;
+  box-shadow:#000 25% ;
+}
+
+#header{
+  padding: 10px;
+  margin: 5px;
+  border-block-end: 8px solid #cc9900;
+  width: fit-content;
+  position: relative;
+  top:  -0px;
+  left: -30px;
+  background-color: #ffbf00;
+  box-shadow: 0 2px, 3px#000;
+  font-weight: 800px;
+}
+
+/* --------------Media-------------- */
+@media (max-width:779px) {
+  .con1{
+    width: 100vh;
+    padding-top: 0px;
+  }
+
+  h3{
+    margin-block-end: 0px;
+  }
+
+.avant{
+  padding-block-end: 0px;
+}
+
+.better{
+  padding-block-end: 0px;
+  
+}
+
+  .sub-con{
+    min-width: 700px;
+    background-color: white;
+    position: absolute;
+    left: -50px;
+    border-block-end: 0.2rem solid #9999;
+  
+  }
+}
+
+
+@media (max-width:685px) {
+  
+  .con1{
+    width: 100vh;
+    padding-top: 0px;
+  }
+
+
+
+  .sub-con{
+    border-block-end: 0.2rem solid #9999;
+  }
+
+  .con2{
+    min-width: 600px;
+    padding-inline-start: 100px;
+  }
+}

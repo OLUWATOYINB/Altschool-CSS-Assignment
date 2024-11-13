@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  background-color: rgba(51, 59, 153, 0.429);
+}
+
+/* -----------------nav container---------- */
+
+nav .menu-wrap{
+  top:-40px;
+  left: -350px;
+}
+
+.menu-wrap{
+  background-color: black;
+  width: 100px;
+  line-height: 2;
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  left: 200%;
+  margin-top: -10%;
+  box-shadow: 0px 4px 2px  rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.menu-wrap:hover{
+  transition: 0.8s;
+  background-color: lightsalmon;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.menu-wrap:hover .sub-menu{
+  display: inline-block;
+}
+
+.sub-menu{
+  position: absolute;
+  display: none;
+  padding: 8px;
+}
+
+
+ul li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: antiquewhite;
+}
+a:hover{
+  color: brown;
+  transition: 0.8s;
+}
+
+/* -------------main container------------ */
+.container{
+  width: 400px;
+}
+
+.main{
+  margin-block-end: 0px;
+  padding-block-end: 0px;
+  background-color: #fff;
+  border-radius: 6px 6px 0px 0px  ;
+}
+.new{
+  width: 400px;
+  position: absolute;
+  left: -10px;
+  top: 40px;
+}
+
+img{
+  border-radius: 6px 0px 6px 0px;
+}
+
+h2{
+background-color: yellow;
+width: 150px;
+font-size: 15px;
+border-radius: 0px 15px 15px 0px;
+padding: 5px;
+}
+
+.container2{
+  background-color: white;
+  width: 400px;
+  padding: 10px;
+  margin-block-start:0px ;
+}
+
+.novus{
+  padding-block-end: 10px;
+}
+
+p{
+  text-align: justify;
+}
+
+span{
+  font-size: 15px;
+  color: grey;
+
+}
+
+
+
+/* ----------------------Media Responsiveness------------------ */
+@media (max-width:768px){
+  nav .menu-wrap{
+    top:-10px;
+    left: -200px;
+  }
+}
+
+@media (max-width:670px){
+  nav .menu-wrap{
+    top:-40px;
+    left: -180px;
+  }
+}
+
+@media (max-width:600px){
+  
+  nav .menu-wrap{
+    top:-40px;
+    left: -150px;
+  }
+}
+
+
+
+@media (max-width:500px){
+ 
+  nav .menu-wrap{
+    top:-40px;
+    left: -100px;
+  }
+}
+
+@media (max-width:425px){
+  nav .menu-wrap{
+    top:-40px;
+    left: -89px;
+  }
+}
