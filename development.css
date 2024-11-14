@@ -74,6 +74,9 @@ section{
   height: 275px;
   margin-inline-end: 40px;
 }
+.small-size{
+  display: none;
+}
 
 img{
   width: 77.33px;
@@ -186,11 +189,20 @@ footer{
     width: 200px;
     height: 50%;
     margin: 0px;
+    
+  }
+
+  .big-size{
+    display: none;
+  }
+  .small-size{
+    display: block;
   }
   
   #con2{
     padding: 10px;
     width: 500px;
+    margin-top: 0;
 }
 }
 

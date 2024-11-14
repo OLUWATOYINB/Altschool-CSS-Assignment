@@ -116,6 +116,13 @@ span{
 
 /* ----------------------Media Responsiveness------------------ */
 @media (max-width:768px){
+
+  .container{
+    width: 300px;
+  }
+  .container2{
+    width: 300px;
+  }
   nav .menu-wrap{
     top:-10px;
     left: -200px;
@@ -123,9 +130,18 @@ span{
 }
 
 @media (max-width:670px){
+  .container{
+    width: 200px;
+  }
+  .container2{
+    width: 200px;
+  }
   nav .menu-wrap{
     top:-40px;
     left: -180px;
+  }
+  .menu-wrap{
+    width: 50px;
   }
 }
 
@@ -136,8 +152,11 @@ span{
     left: -150px;
   }
 }
-
-
+@media(max-width:572){
+main-container{
+  padding-right: 0px;
+}
+}
 
 @media (max-width:500px){
  

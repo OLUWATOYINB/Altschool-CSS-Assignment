@@ -64,12 +64,7 @@ h1{
 
 /* ------------------Responsiveness--------------- */
 
-@media(max-width:1024px){
-  nav .menu-wrap{
-    top:25px;
-    right: 10px;
-  }
-}
+
 
 @media(max-width:768px){
   nav .menu-wrap{
@@ -78,9 +73,13 @@ h1{
   }
 }
 
+
 @media(max-width:320px){
   nav .menu-wrap{
     top:50px;
-    right: 25px;
+    left: 10px;
+  }
+  h1{
+    left: 20px;
   }
 }
