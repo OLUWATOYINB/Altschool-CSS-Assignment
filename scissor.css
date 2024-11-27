@@ -361,9 +361,41 @@ details[open] summary::after {
 /* --------------------section 10--------- */
 .footer{
   display: flex;
+  padding-top: 5rem;
+}
+
+.icons{
+  margin-inline-start: 10rem;
+  margin-inline-end: 10rem;
+}
+
+.socials{
+  margin-block-end: 2rem;
 }
 
 .sub-footer{
   display: grid;
-  grid-template-columns:repeat(4, 1fr) ;
+  grid-template-columns:repeat(4, 1fr);
+}
+
+.sub-footer h6{
+  font-size: 1rem;
+  margin-block-end: 1rem;
+}
+
+.sub-footer ul li{
+  list-style: none;
+  line-height: 1.2;
+}
+
+.scissor2023{
+  margin-block-start:10rem ;
+  font-size: 0.7rem;
+  font-weight: 2rem;
+}
+
+.scissor2023 p{
+  padding: 2rem;
+  color:#112232;
+  width: 20rem;
 }
