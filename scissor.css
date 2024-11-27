@@ -304,10 +304,10 @@ margin-right: 1rem;
   margin-bottom: 15px;
   margin-inline-start: 15rem;
   padding-block-start: 2rem;
-  border-left: 0.1rem solid black;
-  background: linear-gradient(to bottom, white, #333);
+  border-left: 0.4rem solid black;
+  background: linear-gradient(to bottom, #112232, #4D6B8800);
   background-origin: border-box;
-  
+  width: 0.1rem;
 }
 
 details {
@@ -316,7 +316,6 @@ details {
 
 summary {
   list-style: none; /* Remove default arrow */
-  /* display: flex; */
   justify-content: space-between;
   cursor: pointer;
   font-weight: bold;

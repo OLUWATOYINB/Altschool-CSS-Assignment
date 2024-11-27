@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,7 +9,9 @@
 <body>
  <section>
    <header class="menu">
-      <div class="logo">WP Pusher</div>
+      <div>
+        <img class="logo" src="./Asset/wppusher-logo copy (1).png" alt="wp-logo">
+      </div>
       <nav>
         <ul>
           <li>Dashboard</li>
@@ -21,47 +23,50 @@
       </nav>
     </div>
   </header>
-
- 
+ <!-- -----------form section--------- -->
     <div class="main-container">
       <div class="container">
         <div class="left-container">
         <h3>checkout</h3>
+        <div class="form-group">
         <form id="basic-info">
           <h2> Your Basic Information</h2>
-          <li>First name</li>
-          <input type="text" placeholder="firstname">
-          <li>Last name</li>
-          <input type="text" placeholder="lastname">
-          <li>Email</li>
-          <input type="email" placeholder="email">
+          <label for="first-name">First name</label>
+          <input type="text" id="first-name" placeholder="firstname">
+          <label for="last-name">Last name</label>
+          <input type="text"  id="last-name" placeholder="lastname">
+          <label for="email">Email</label>
+          <input type="email"  id="email" placeholder="email">
         </form>
         </div>
+        </div>
 
-        <div>
+        <div class="form-group">
         <form id="payment-info">
           <p> Your Payment Information</p>
-          <li>Credit Card</li>
+          <label>Credit Card</label>
           <input type="text" placeholder="card number">
           <input type="text" placeholder="mm/yy">
           <input type="text" placeholder="cvc">
         </form>
         </div>
         <div>
-          <button>Buy Wp Pusher</button>
-          <p>need any help? Don't hesitate to contact support</p>
+          <button class="btn">Buy Wp Pusher</button>
+          <p>Need any help? Don't hesitate to contact support</p>
         </div>
         </div>
 
          <!-- -----------------Right container------------- -->
 
         <aside class="right-container">
-          <p>Freelancer</p>
-          <p>99/year</p>
-          <p>Automatically renews after 1 year</p>
-          <p>Use on 5 client sites</p>
-          <p>Private repositories</p>
-          <p>Email support</p>
+          <h3>Freelancer</h3>
+          <p> <strong>99/year</strong></p>
+          <p> <i>Automatically renews after 1 year</i></p>
+          <ul>
+            <li><img src="./Asset/Combined Shape Copy 2.png" alt="checked">Use on 5 client sites</li>
+            <li><img src="./Asset/Combined Shape Copy 2.png" alt="checked">Private repositories</li>
+            <li><img src="./Asset/Combined Shape Copy 2.png" alt="checked">Email support</li>
+          </ul>
           <p>Need 20 client sites?</p>
           <p>Switch to the Agency plan</p>
           <p>FTP is horrible to deal with.
@@ -69,9 +74,17 @@
             and the customer support is 
             awesome!
           </p>
-          <h6>Kirk Beard</h6>
+          <h6><img src="./Asset/Bitmap.png" alt="kirk">Kirk Beard</h6>
         </aside>
       </div>
+    </div>
   </section>
+  <footer>
+    &copy; 2024 WP Pusher IVS - <a href="#" style="color: #0070d2;">Terms of Service</a>
+  </footer>
 </body>
-</html>
+</html> 
+
+
+      
+     
