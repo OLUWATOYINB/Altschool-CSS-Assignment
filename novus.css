@@ -118,20 +118,20 @@ span{
 @media (max-width:768px){
 
   .container{
-    width: 300px;
+    width: 18.75rem;
   }
   .container2{
-    width: 300px;
+    width: 18.75rem;
   }
   nav .menu-wrap{
-    top:-10px;
-    left: -200px;
+    top:-0.625rempx;
+    left: -12.5rem;
   }
 }
 
 @media (max-width:670px){
   .container{
-    width: 200px;
+    width: 12.5rem;
   }
   .container2{
     width: 200px;
@@ -170,5 +170,12 @@ main-container{
   nav .menu-wrap{
     top:-40px;
     left: -89px;
+  }
+
+  .container{
+    width: 10rem;
+  }
+  .container2{
+    width: 10rem;
   }
 }

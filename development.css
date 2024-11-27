@@ -165,7 +165,7 @@ footer{
 @media(max-width:1024px){
   section{
     gap: 300px;
-   ;
+
   }
   .con1{
     top: 90px;
@@ -234,3 +234,50 @@ input, select {
   border: 1px solid #ccccccb0;
 }
 }
+
+@media(max-width:425px){
+  section{
+    gap: 150px;
+    display: grid;
+  }
+div .form-group{
+  display: block;
+} 
+
+#con2{
+  padding: 0px;
+  margin-top: 0px;
+}
+}
+
+@media(max-width:429px){
+  section{
+    gap: 0;
+    display: grid;
+    width: 100%;
+  }
+
+  #con2{
+    padding: 0px;
+    margin-top: 0px;
+}
+
+div .form-group{
+  gap: 0;
+  display: block;
+  
+}  
+}
+@media(max-width:320px){
+  section{
+    gap: 1;
+    display: grid;
+    width: 460px;
+  }
+
+
+div .form-group{
+  display: block;
+}  
+}
+
