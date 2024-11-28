@@ -8,6 +8,8 @@
   justify-content: space-between;
   padding: 0.5rem;
   margin: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .icon{
@@ -50,6 +52,7 @@ nav ul li{
 /* -----------------section 1--------------- */
  
 .intro h2{
+  max-width: 100%;
   margin-inline-start: 25rem;
   margin-block-end: 2rem;
   font-size: 2rem;
@@ -138,6 +141,7 @@ nav ul li{
   padding: 2rem;
   margin: 2rem;
   display: flex;
+  grid-template-columns: 1fr;
 }
 .choose{
   width: 20rem;
@@ -170,10 +174,13 @@ nav ul li{
 /* --------------------section 6-------------- */
 .container-6{
   display: grid;
-  width: 70rem;
+  /* width: 70rem; */
+  max-width:90%;
   margin-inline-start: 5rem;
   grid-template-columns: repeat(3, 1fr);
   padding: 4rem;
+  /* grid-template-columns: 1fr; */
+  /* gap: 2rem; */
 }
 
 .container-6 .basic{
@@ -256,6 +263,7 @@ margin-right: 1rem;
   padding: 0.3rem;
   margin-inline-start: 25rem;
 }
+
 .select-btn{
   margin-block-end: 2rem;
   width: 10rem;
@@ -486,6 +494,24 @@ details[open] summary::after {
     padding: 0.5rem;
     margin: 3rem;
   }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro h2, .intro h3, .intro p {
+    margin: 1rem auto;
+    text-align: center;
+    width: 90%;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .icons, .socials {
+    margin: 1rem 0;
+  }
 
   .free-btn{
     margin-inline-start: 2rem;
@@ -529,4 +555,10 @@ details[open] summary::after {
 .subcontainer-3  p{
   margin-inline-end: 3rem;
 }
+}
+
+@media (max-width: 460px) {
+  h2, h3, p {
+    font-size: 1.5rem;
+  }
 }
