@@ -52,7 +52,6 @@ nav ul{
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  padding: 3rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
 
@@ -67,56 +66,157 @@ nav ul{
   
 /* ---------------left container--------------- */
 .left-container{
-  display: grid;
   margin: 1rem;
-  gap: 2rem;
+  gap: 1rem;
   padding-inline-start: 2rem;
   padding-inline-end: 2rem ;
-  width: 60%;
+  width: 100%;
+}
+
+.left-container h3{
+  margin-block-start: -1rem;
+  font-size: 1.5rem;
+  text-shadow: 0 0.11rem 0.12rem#000;
+  background-color: transparent;
+  margin-bottom: 4rem;
+
 }
 
 .form-group {
   margin-bottom: 20px;
+  width: 20rem;
+  margin-inline-start: -2rem;
+  display: flex;
 }
 
-.left-container h3{
+.left-container h4 img{
+  margin-inline-end: 0.6rem;
+
+}
+
+.left-container h4{
+  margin-top: -15px;
   margin-bottom: 20px;
+  font-size: 1rem;
+  width: 15rem;
+}
+.user-details{
+  display: flex;
+
+ 
 }
 
-.left-container h2{
-  margin-bottom: 20px;
+
+.basic-info h4{
+  margin-block-start: -2rem;
+
 }
 
+.basic-info div label input{
+
+}
+
+label {
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.user-details div{
+  gap: 4;
+
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 10px;
+  background-color: #d0cece;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+select:focus {
+  border-color: #007BFF;
+}
+#payment-info{
+  margin-inline-start: 5rem;
+}
+#payment-info .card{
+  display: flex;
+  margin-inline-end: 0;
+  border-right: 0px;
+  outline: none;
+  
+}
+
+label #first-name{
+  display: flex;
+}
+
+.card-details{
+width: 40rem;
+}
 
 .btn {
-  background-color: #28a745;
+  background-color: #038E7D;
   color: #fff;
   padding: 15px;
   text-align: center;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 90%;
+  margin-block-end: 2rem;
 }
 .btn:hover {
-  background-color: #218838;
+  background-color: #038E7D;
 }
+
+.support{
+  color: grey;
+ 
+}
+
+.stripe{
+  background-color: grey;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  padding: 0.3rem;
+  border-radius: 0.1rem;
+  margin-block-start: 1rem;
+  font-size: 0.4rem;
+  margin-inline-start: 10rem;
+}
+
 
 /* ------------------right container--------------- */
 .right-container{
       background-color:  #0070d2;
       flex: 1;
       color: #fff;
-      /* padding: 30px; */
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       line-height: 2;
-      width: 40%;
+      max-width: 100%;
+      border-radius: 0 1rem 1rem 0;
+      max-height: 100%;
+      margin: 0;
 
 }
 
 .right-container h3 {
-  margin-top: 0;
+  margin-top: 0px;
 }
 .right-container ul {
   list-style: none;
@@ -222,5 +322,10 @@ footer {
     width: 40%;
 }
 }
+
+
+
+
+
 
 
